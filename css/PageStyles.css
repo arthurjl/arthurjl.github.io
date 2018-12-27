@@ -54,9 +54,15 @@
 }
 
 #landingForeground {
-	background-image: url("{{site.baseurl}}/images/PersonSitting.png");
+	background-image: url("{{site.baseurl}}/images/sittingBacksideStraightCropped.png");
 	background-position: 50% 100%;
-	background-size: 50%;
+	background-size: 50vh;
+}
+
+#landingWall {
+	background-image: url("{{site.baseurl}}/images/wallLandingPageCropped.png");
+	background-size: 100% 7%;
+	background-position: 0% 105%;
 }
 
 #projectsForeground {
@@ -64,6 +70,8 @@
 	background-size: 60% 30%;
 	background-position: 1% 100%;
 }
+
+
 
 /* Content CSS */
 .contentContainer {
@@ -78,12 +86,15 @@
 
 .content {
 	width: 120vh;
+	max-width: 100%;
+	max-width: 100%;
 	text-align: center;
 	padding: 40px;
 }
 
 .showcaseThumbnail {
 	width: 120vh;
+	max-width: 100%;
 	height: 70vh;
 	object-fit: cover;
 	background-color: grey;
