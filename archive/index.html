@@ -1,0 +1,54 @@
+---
+layout: default
+title: Post Archives
+style: style3
+---
+
+<section class="overallContainer">
+  <div class="archiveContainer">
+    <div class="floatingPencil"></div>
+    <div class="tagCategories">
+        <ul class="tagCloud">
+            <li><a class="blogTagCloud" href="#blog">blog posts [{{site.categories.blog.size}}]</a></li>
+            <li><a class="presentationTagCloud" href="#presentation">presentations [{{site.categories.project.size}}]</a></li>
+            <li><a class="projectTagCloud" href="#project">projects [{{site.categories.project.size}}]</a></li>
+          {% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+          {% assign sortedTags=site_tags | split:',' | sort %}
+
+          {% for tag in sortedTags %}
+            <li><a class="projectTagCloud" href="#{{tag | cgi_escape}}">{{tag}} [{{site.tags[tag].size}}]</a></li>
+          {% endfor %}
+        </ul>
+
+       {% for category in site.categories %}
+        <ul class="singleTag">
+          <h3 id="{{category[0]}}">{{category[0]}}</h3>
+          {% for post in category[1] %}
+          <li>
+                <time itemprop="dateCreated" datetime="{{post.date}}">
+                      {{ post.date | date: "%b %d, %Y" }}</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+                      {{post.title}}</a>
+          </li>
+          {% endfor %}
+         <li class="return"><a id="highlightColor" href="#top" title="return to top">return to top</a></li>
+        </ul>
+        {% endfor %}
+    
+        {% for tag in sortedTags %}
+        <ul class="singleTag">
+          <h3 id="{{tag | cgi_escape}}">{{tag}}</h3>
+          {% for post in site.tags[tag] %}
+          <li>
+                <time itemprop="dateCreated" datetime="{{post.date}}">
+                      {{ post.date | date: "%b %d, %Y" }}</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+                      {{post.title}}</a>
+          </li>
+          {% endfor %}
+         <li class="return"><a id="highlightColor" href="#top" title="return to top">return to top</a></li>
+        </ul>
+        {% endfor %}
+    </div>
+  </div>
+
+</section>
+

@@ -1,0 +1,14 @@
+---
+---
+<!doctype html>
+<html>
+{% include head.html %}
+<body {% if page.style == 'style2' %}class="blogBackgroundColor"{% endif %}>
+
+{% include header.html %}
+
+{{ content }}
+
+{% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,30 @@
+---
+layout: default
+activeLink: blog
+---
+<section class="contentContainer blogBackgroundColor">
+    <div class="blogContent">
+        <h1>{{ page.title }}</h1>
+        <time itemprop="dateCreated" datetime="{{page.date}}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        <p id="postTags">{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        {{ content }}
+    </div>
+
+<!--     {% if page.previous.url %}
+    <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></p>
+  {% endif %}
+  {% if page.next.url %}
+    <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
+  {% endif %} -->
+
+    <div class="olderNewerLinks">
+        {% if page.previous.url %}
+        <a href="{{ site.baseurl }}{{page.previous.url}}" class="older">< {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+        <a href="{{ site.baseurl }}{{page.next.url}}" class="newer">{{page.next.title}} ></a>
+        {% endif %}
+    </div>
+</section>
+
+

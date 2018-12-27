@@ -1,0 +1,22 @@
+<header class="split {% if page.style == 'style2' or page.style == 'style3' %}positionStatic {% if page.style =='style3' %}style3HeaderColor{% endif %}{% endif %}">
+    <a href="{{site.baseurl}}/" class="webTitle">Arthur&nbsp;Liu</a>
+    <nav> <!-- add titles!!! title="mouseover text" -->
+        <ul> <!-- figure out how to make one active -->
+            <li>
+                <a class="rightLink {% if page.activeLink == 'about' %}active{% endif %}" href="{{site.baseurl}}/about">about</a>
+            </li>
+            <li>
+                <a class="rightLink {% if page.activeLink == 'projects' %}active{% endif %}" href="{{site.baseurl}}/projects">projects</a>
+            </li>
+            <li>
+                <a class="rightLink {% if page.activeLink == 'presentations' %}active{% endif %}"  href="{{site.baseurl}}/presentations">presentations</a>
+            </li>
+            <li>
+                <a class="rightLink {% if page.activeLink == 'blog' %}active{% endif %}" href="{{site.baseurl}}/blog">blog</a>
+            </li>
+            <li>
+                <a class="rightLink" href="{{site.baseurl}}/resume">resume</a>
+            </li>
+        </ul>
+    </nav>
+</header>

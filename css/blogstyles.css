@@ -1,0 +1,170 @@
+---
+---
+.positionStatic {
+	position: static !important;
+}
+
+.blogBackgroundColor {
+	background-color: tan;
+	padding: 0px;
+}
+
+.pageTop {
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pageIcon {
+	height: 50%;
+	width: 80%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pencilPic {
+	background-image: url("{{site.baseurl}}/images/BicMechanicalPencil.png");
+}
+
+.rulerPic {
+	background-image: url("{{site.baseurl}}/images/rulerLongBlue.png");
+}
+
+.mousePic {
+	background-image: url("{{site.baseurl}}/images/tempMouse.png");
+}
+
+.pageIconLink {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+}
+
+.showcase .tags {
+	position: absolute;
+	font-size: 15px;
+	padding: 5px 20px 0px;
+	font-style: italic;
+}
+
+.archive {
+	height: 1.5em;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.archive h3 {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.archive img {
+	height: 1em;
+	width: 1em;
+	padding-right: 10px;
+}
+
+.olderNewerLinks {
+	width: 90%;
+	margin-top: 20px;
+	text-transform: lowercase;
+}
+
+.olderNewerLinks a {
+	font-size: 20px;
+	font-weight: bold;
+	color: midnightblue;
+}
+
+.olderNewerLinks .older {
+	float: left;
+}
+
+.olderNewerLinks .newer {
+	float: right;
+}
+
+.olderNewerLinks .older:hover, .olderNewerLinks .newer:hover {
+	color: whitesmoke;
+}
+
+
+.blogFooterColor {
+	background-color: rgb(216, 219, 226);
+}
+
+.tags, .tags a {
+	color: darkslategrey;
+}
+
+.tags a:hover {
+	color: black;
+}
+
+/* single post styles */
+
+
+#postTags {
+	font-size: 15px;
+	margin: 5px;
+	align-self: flex-end;
+	padding-right: 25px;
+	color: dimgray;
+}
+
+#postTags a {
+	color: dimgray;
+	text-decoration: underline;
+}
+
+#postTags a:hover {
+	color: white;
+}
+
+time {
+	font-size: 15px;
+	margin-bottom: 15px;
+	color: dimgray;
+	align-self: center;
+}
+
+.blogContent {
+	margin: 50px 0px;
+	max-width: 700px;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+.blogContent h1 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: lowercase;
+	margin-top: 40px;
+	align-self: center;
+}
+
+.blogContent p {
+	margin: 10px 0px;
+	font-size: 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.blogContent img {
+	height: 50vh;
+	width: 90vw;
+	object-fit: contain;
+	margin: 15px 0px;
+}
+
+.blogContent div {
+	align-self: center;
+}
+
+
+

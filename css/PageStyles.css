@@ -1,0 +1,186 @@
+---
+---
+/*Hero imagesg*/
+.HeroImage {
+	position: relative;
+	height: 100vh;
+	background-color: attr(test color, red);
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#background1 {
+	background-image: url("{{site.baseurl}}/images/architecture-buildings-business-260566.jpg");
+}
+
+#background2 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-image: url("{{site.baseurl}}/images/projectsBackground.png");
+	background-color: tan;
+}
+
+#bloggingBackground {
+	background-image: url("{{site.baseurl}}/images/TopOfDesk.jpg");
+}
+
+#randomBackground {
+	background-image: url("https://picsum.photos/800/400/?blur");
+}
+
+.HeroImage #nameTitle {
+	color: white;
+	font-size: 80px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: lowercase;
+
+	/* remove when I want to use parallax on the words */
+	display: none;
+}
+
+.foreground {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-repeat: no-repeat;
+}
+
+#landingForeground {
+	background-image: url("{{site.baseurl}}/images/PersonSitting.png");
+	background-position: 50% 100%;
+	background-size: 50%;
+}
+
+#projectsForeground {
+	background-image: url("{{site.baseurl}}/images/projectsForeground.png");
+	background-size: 60% 30%;
+	background-position: 1% 100%;
+}
+
+/* Content CSS */
+.contentContainer {
+	min-height: 100vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	flex-direction: column;
+}
+
+.content {
+	width: 120vh;
+	text-align: center;
+	padding: 40px;
+}
+
+.showcaseThumbnail {
+	width: 120vh;
+	height: 70vh;
+	object-fit: cover;
+	background-color: grey;
+	/*overflow: hidden;*/
+}
+
+.showcaseThumbnail img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.showcase h2 {
+	padding: 20px 0px 10px;
+	color: blue;
+	font-weight: bold;
+	/*letter-spacing: 1px;*/
+	word-spacing: 5px;
+	text-transform: lowercase;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showcase p {
+	color: black;
+	font-size: 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.readMoreButton {
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+
+    transition: .3s;
+}
+
+.readMoreButton:hover {
+    opacity: 0.8;
+}
+
+.blogShowcaseContainer {
+	width: 70%;
+	background-color: purple;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin-bottom: 50px;
+}
+
+.blogThumbnail {
+    flex: 50%; /*not sure if this is necessary*/
+    width: 50%; /*i'm pretty sure i need one*/
+	background-color: lightgrey;
+    position: relative;
+}
+
+.blogThumbnail img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.blogThumbnail img:hover {
+    transform: scale(1.2);
+}
+
+.blogName {
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogName:hover {
+    opacity: 0.7;
+}
+
+

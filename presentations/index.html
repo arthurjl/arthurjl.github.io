@@ -1,0 +1,32 @@
+---
+layout: default
+style: style2
+activeLink: presentations
+---
+<div class="pageTop">
+    <a class="pageIcon mousePic" href="{{site.baseurl}}/archive"></a>
+    <div class="archive">
+        <img src="{{site.baseurl}}/images/curvingArrowLeft.png" alt="arrowPointUp">
+        <h3>click mouse for archive!</h3>
+    </div>
+</div>
+
+
+<!-- site.categories contains all categories. -->
+<!-- category is an array where 0 is name and 1 is a list of all posts under that category -->
+<section class="contentContainer blogBackgroundColor">
+{% for post in site.categories.presentation %}
+      <div class="content">
+        <div class="showcase">
+            <a href="{{site.baseurl}}{{post.url}}" title="click to read more">
+            <div class="showcaseThumbnail">
+                <img src="{{post.thumbnail}}" alt="thumbnail of post">
+            </div>
+            </a>
+            <h2>{{ post.title }}</h2>
+            <p>{{post.excerpt | strip_html}}</p>
+        </div>
+    </div>
+{% endfor %}
+</section>
+</section>
