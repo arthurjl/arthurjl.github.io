@@ -13,7 +13,7 @@
 }
 
 #background1 {
-	background-image: url("{{site.baseurl}}/images/architecture-buildings-business-260566.jpg");
+	background-image: url("{{site.baseurl}}/images/Seattle_Kerry_Park_Skyline.jpg");
 }
 
 #background2 {
@@ -55,14 +55,20 @@
 
 #landingForeground {
 	background-image: url("{{site.baseurl}}/images/sittingBacksideStraightCropped.png");
-	background-position: 50% 100%;
+	background-position: 50% 50%;
 	background-size: 50vh;
 }
 
 #landingWall {
-	background-image: url("{{site.baseurl}}/images/wallLandingPageCropped.png");
-	background-size: 100% 7%;
-	background-position: 0% 105%;
+	background-image: url("{{site.baseurl}}/images/redWallLipDarker.png");
+	background-size: 35%;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#aboutMeBox {
+	background-image: url("{{site.baseurl}}/images/redWallOnlyDarker.png");
+	background-size: 35%;
 }
 
 #projectsForeground {
