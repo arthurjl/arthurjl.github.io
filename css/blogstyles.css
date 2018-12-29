@@ -34,7 +34,8 @@
 }
 
 .mousePic {
-	background-image: url("{{site.baseurl}}/images/tempMouse.png");
+	background-image: url("{{site.baseurl}}/images/whiteMouse.png");
+	height: 80%;
 }
 
 .pageIconLink {

@@ -95,6 +95,12 @@
 	align-items: center;
 }
 
+#projectsTitle, #presentationsTitle, #blogTitle {
+	font-size: 50px;
+	letter-spacing: 15px;
+	font-family: 'Merriweather', serif;
+}
+
 
 /* Content CSS */
 .contentContainer {

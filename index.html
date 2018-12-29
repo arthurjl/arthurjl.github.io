@@ -18,12 +18,12 @@ layout: default
 
 
 <section class="HeroImage" id="background2">
-	<h1 id="projectsTitle">my Projects</h1>
+	<h1 id="projectsTitle">projects</h1>
 	<div class="foreground" id="projectsForeground"></div>
 </section>
 
 <section class="contentContainer">
-    {% for post in site.categories.project %}
+    {% for post in site.categories.project limit: 3 %}
       <div class="content">
         <div class="showcase">
             <a href="{{site.baseurl}}{{post.url}}" title="click to read more">
@@ -44,12 +44,12 @@ layout: default
 
 
 <section class="HeroImage" id="randomBackground">
-	<h1 id="nameTitle">my presentations</h1>
+	<h1 id="presentationsTitle">presentations</h1>
 	<div class="foreground" id="landingForeground"></div>
 </section>
 
 <section class="contentContainer">
-    {% for post in site.categories.presentation %}
+    {% for post in site.categories.presentation limit: 3 %}
       <div class="content">
         <div class="showcase">
             <a href="{{site.baseurl}}{{post.url}}" title="click to read more">
@@ -70,7 +70,7 @@ layout: default
 
 
 <section class="HeroImage" id="bloggingBackground">
-	<h1 id="nameTitle">blogging</h1>
+	<h1 id="blogTitle">blogs</h1>
 	<div class="foreground" id="landingForeground"></div>
 </section>
 
@@ -78,7 +78,7 @@ layout: default
 	<h2>I blog infrequently</h2>
 	<p>Here are some of the latest ones</p>
 	<div class="blogShowcaseContainer">
-        {% for post in site.categories.blog %}
+        {% for post in site.categories.blog limit: 5 %}
             <div class="blogThumbnail">
                 <a href="{{site.baseurl}}{{post.url}}">
                 <img src="{{post.thumbnail}}" alt="FINISH FINISH FINISH">
