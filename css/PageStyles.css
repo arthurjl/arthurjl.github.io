@@ -76,6 +76,17 @@
 	background-position: 1% 100%;
 }
 
+#aboutMeTitle {
+	font-family: 'Lalezar', cursive;
+	font-size: 80px;
+	color: rgb(203, 255, 250);
+}
+
+#aboutMeText {
+	color: white;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 /* Content CSS */
