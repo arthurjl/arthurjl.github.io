@@ -68,7 +68,7 @@
 
 #aboutMeBox {
 	background-image: url("{{site.baseurl}}/images/redWallOnlyDarker.png");
-	background-size: 35%;
+	background-size: 80vh;
 }
 
 #projectsForeground {
