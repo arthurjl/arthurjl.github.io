@@ -54,14 +54,14 @@
 }
 
 #landingForeground {
-	background-image: url("{{site.baseurl}}/images/sittingBacksideStraightCropped.png");
-	background-position: 50% 50%;
+	background-image: url("{{site.baseurl}}/images/sittingBacksideStraightCroppedBetter.png");
+	background-position: 50% 77%;
 	background-size: 50vh;
 }
 
 #landingWall {
 	background-image: url("{{site.baseurl}}/images/redWallLipDarker.png");
-	background-size: 35%;
+	background-size: 35% 5vh;
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
