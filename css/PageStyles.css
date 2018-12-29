@@ -77,15 +77,22 @@
 }
 
 #aboutMeTitle {
-	font-family: 'Lalezar', cursive;
-	font-size: 80px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 70px;
 	color: rgb(203, 255, 250);
 }
 
 #aboutMeText {
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Source Sans Pro', sans-serif;
+	width: 80%;
+}
+
+#aboutMeTextCenter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 

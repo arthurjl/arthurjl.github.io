@@ -1,0 +1,19 @@
+mark {
+	background-color: transparent;
+}
+
+mark.red {
+	color: red;
+}
+
+mark.black {
+	color: black;
+}
+
+mark.huskyPurple {
+	color: rgb(51, 0, 111);
+}
+
+.outline {
+	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}

@@ -5,5 +5,4 @@ permalink: /about/
 style: style3
 ---
 
-Hi! Sadly, this page isn't finished yet...
-Come visit again later! :)
+Hi! Sadly, this page isn't finished yet.
