@@ -1,0 +1,41 @@
+---
+---
+<!doctype html>
+<html>
+{% include head.html %}
+
+<body {% if page.style == 'style2' %}class="blogBackgroundColor"{% endif %}>
+
+<!-- fade in effect -->
+<!-- \/\/\//\/\/\/\/ -->
+<style>
+	html {
+		background-color: black;
+	}
+	body {
+	    opacity: 1;
+	    transition: opacity 1s;
+	}
+	body.fade-out {
+	    opacity: 0;
+	    transition: none;
+	}
+</style>
+
+<script>document.body.className += ' fade-out';</script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(function() {
+	    $('body').removeClass('fade-out');
+	});
+</script>
+<!-- ^^^^^^^^^^^^^^ -->
+<!-- fade in effect -->
+
+{% include header.html %}
+
+{{ content }}
+
+{% include footer.html %}
+</body>
+</html>
