@@ -1,7 +1,7 @@
 ---
 ---
 <!doctype html>
-<html>
+<html id="html">
 {% include head.html %}
 
 <body {% if page.style == 'style2' %}class="blogBackgroundColor"{% endif %}>
@@ -10,7 +10,10 @@
 <!-- \/\/\//\/\/\/\/ -->
 <style>
 	html {
-		background-color: black;
+		background-color: white;
+	}
+	html.white {
+		background-color: white;	
 	}
 	body {
 	    opacity: 1;
@@ -22,13 +25,14 @@
 	}
 </style>
 
-<script>document.body.className += ' fade-out';</script>
+<script>document.body.className += 'fade-out';</script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
 	$(function() {
 	    $('body').removeClass('fade-out');
 	});
 </script>
+
 <!-- ^^^^^^^^^^^^^^ -->
 <!-- fade in effect -->
 
