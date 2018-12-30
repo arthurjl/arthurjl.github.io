@@ -121,6 +121,7 @@
 #postTags a {
 	color: dimgray;
 	text-decoration: underline;
+	text-decoration-style: dotted;
 }
 
 #postTags a:hover {

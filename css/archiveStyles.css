@@ -92,6 +92,7 @@ h3:target ~ li a {
 
 .singleTag li a:hover {
 	text-decoration: underline;
+	text-decoration-style: dotted;
 }
 
 li time {

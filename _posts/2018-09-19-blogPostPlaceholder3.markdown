@@ -1,16 +1,13 @@
 ---
-layout: post
-title:  "today i almost ate breakfast"
-date:   2018-12-21 20:40:45 -0800
-tags: [html, css, javascript, rekt]
-categories: [project]
+title:  "blogpost placeholder3"
+date:   2018-9-19 20:40:45 -0800
+categories: [blog]
 activeLink: blog 
-style: style2
 thumbnail: https://picsum.photos/800/400/?random
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue et pellentesque efficitur, odio eros congue elit, et facilisis justo elit sed dolor. Vivamus nec metus tortor. Donec sed congue diam, ac hendrerit sem. Aliquam tincidunt volutpat faucibus. Donec ipsum eros, congue sit amet luctus sit amet, auctor mollis nisl. Nunc pharetra ut sapien non tincidunt. Nullam quam ipsum, placerat vitae imperdiet ut, venenatis non massa. Quisque feugiat sollicitudin nunc, quis laoreet tortor rutrum ac. Proin feugiat auctor nisl, nec imperdiet massa finibus quis. Fusce volutpat sit amet neque nec efficitur. Nam feugiat facilisis metus eget commodo. Morbi a diam massa. Aenean ac felis sit amet neque congue fermentum. Fusce vel eleifend risus. Duis non condimentum purus. Phasellus non mi ante.
 
-<!-- ![My Twitter stream](https://picsum.photos/800/400/?random) -->
 <div><img src="https://picsum.photos/800/400/?random"></div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue et pellentesque efficitur, odio eros congue elit, et facilisis justo elit sed dolor. Vivamus nec metus tortor. Donec sed congue diam, ac hendrerit sem. Aliquam tincidunt volutpat faucibus. Donec ipsum eros, congue sit amet luctus sit amet, auctor mollis nisl. Nunc pharetra ut sapien non tincidunt. Nullam quam ipsum, placerat vitae imperdiet ut, venenatis non massa. Quisque feugiat sollicitudin nunc, quis laoreet tortor rutrum ac. Proin feugiat auctor nisl, nec imperdiet massa finibus quis. Fusce volutpat sit amet neque nec efficitur. Nam feugiat facilisis metus eget commodo. Morbi a diam massa. Aenean ac felis sit amet neque congue fermentum. Fusce vel eleifend risus. Duis non condimentum purus. Phasellus non mi ante.

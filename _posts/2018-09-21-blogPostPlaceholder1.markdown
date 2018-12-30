@@ -1,11 +1,8 @@
 ---
-layout: post
-title:  "BLOGPOST4"
+title:  "blogpost placeholder1"
 date:   2018-9-21 20:40:45 -0800
-tags: [html, css, javascript, rekt]
 categories: [blog]
 activeLink: blog 
-style: style2
 thumbnail: https://picsum.photos/800/400/?random
 ---
 
