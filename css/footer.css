@@ -25,6 +25,7 @@ footer nav ul {
 }
 
 footer .links {
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
     color: navy;
 }

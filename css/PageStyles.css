@@ -15,21 +15,6 @@
 	background-image: url("{{site.baseurl}}/images/Seattle_Kerry_Park_Skyline.jpg");
 }
 
-#background2 {
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-image: url("{{site.baseurl}}/images/projectsBackground.png");
-	background-color: tan;
-}
-
-#bloggingBackground {
-	background-image: url("{{site.baseurl}}/images/TopOfDesk.jpg");
-}
-
-#randomBackground {
-	background-image: url("https://picsum.photos/800/400/?blur");
-}
 
 .HeroImage #nameTitle {
 	color: white;
@@ -70,12 +55,6 @@
 	background-size: 80vh;
 }
 
-#projectsForeground {
-	background-image: url("{{site.baseurl}}/images/projectsForeground.png");
-	background-size: 60% 30%;
-	background-position: 1% 100%;
-}
-
 #aboutMeTitle {
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 70px;
@@ -98,8 +77,51 @@
 #projectsTitle, #presentationsTitle, #blogTitle {
 	font-size: 50px;
 	letter-spacing: 15px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Fredericka the Great', cursive;
 }
+
+#projectsTitle {
+	color: rgb(76, 97, 133);
+}
+
+#presentationsTitle {
+	color: rgb(124, 97, 128);
+}
+
+#projectsForeground {
+	background-image: url("{{site.baseurl}}/images/projectsForegroundDrawn.png");
+	background-size: auto 60vh;
+	background-position: 10% 105%;
+}
+
+#projectsBackground {
+	background-size: auto 90vh;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-image: url("{{site.baseurl}}/images/projectsBackgroundDrawn.png");
+	background-color: rgb(245, 234, 215);
+}
+
+#presentationsBackground {
+	background-image: url("{{site.baseurl}}/images/presentationBackground.png");
+	background-color: rgb(245, 234, 215);
+	background-size: auto 80vh;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#presentationsForeground {
+	background-image: url("{{site.baseurl}}/images/presentationForeground.png");
+	background-size: auto 50vh;
+	background-position: bottom;
+}
+
+#bloggingBackground {
+	background-image: url("{{site.baseurl}}/images/pexels-photo-965117.jpeg");
+}
+
+
+
 
 
 /* Content CSS */
