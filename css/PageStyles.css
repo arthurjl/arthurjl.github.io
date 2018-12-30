@@ -12,7 +12,7 @@
 }
 
 #background1 {
-	background-image: url("{{site.baseurl}}/images/Seattle_Kerry_Park_Skyline.jpg");
+	background-image: url("{{site.baseurl}}/images/Seattle_Kerry_Park_Skyline_ReducedQuality.jpg");
 }
 
 
@@ -195,6 +195,13 @@ a {
 
 .readMoreButton:hover {
     opacity: 0.8;
+}
+
+#blogContentText {
+	color: steelblue;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 35px;
 }
 
 .blogShowcaseContainer {
