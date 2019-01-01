@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{site.title}}</title>
+    <title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
 
@@ -15,18 +15,16 @@
     <link href="{{site.baseurl}}/css/highlight.css" rel="stylesheet" type="text/css">
 
     <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $('body').removeClass('fade-out');
-        });
-    </script>
+    {% if page.title == "Post Archives" %}{% endif %}
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{{site.baseurl}}/scripts/smoothScroll.js"></script>
 
     <!-- Google Verification -->
     <meta name="google-site-verification" content="z8OJ4OGAF5IYRZZSyTqySZqkrsNbO_UBG-YCvXrcsUY" />
 
     <!-- favicon  -->
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/images/faviconArrow.png"/>
+
     <!-- fonts -->
     <!-- handwriting for click on pencil -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
