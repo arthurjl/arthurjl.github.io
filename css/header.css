@@ -53,3 +53,7 @@ header nav {
 .active, .rightLink:hover, .webTitle:hover {
     color: hotpink;
 }
+
+#hamburgerMenu {
+    display: none;
+}

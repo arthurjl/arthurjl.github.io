@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+
+header nav {
+    display: none;
+}
+
+.webTitle {
+    padding: 0px;
+}
+
+
+#hamburgerMenu {
+    z-index: 2;
+    display: inline;
+}
+
+}

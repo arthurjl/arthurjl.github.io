@@ -58,12 +58,13 @@
 #aboutMeTitle {
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 70px;
-	color: rgb(203, 255, 250);
+	/*color: rgb(203, 255, 250);*/
+	color: white;
 }
 
 #aboutMeText {
-	color: white;
-	font-size: 25px;
+	color: gainsboro;
+	font-size: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
 	width: 80%;
 }
@@ -206,7 +207,6 @@ a {
 
 .blogShowcaseContainer {
 	width: 70%;
-	background-color: purple;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -226,9 +226,11 @@ a {
 	object-fit: cover;
 }
 
+/* Confirm this is unnecessary. I'm pretty sure it's not used, but I'm working on something else atm */
+/*
 .blogThumbnail img:hover {
     transform: scale(1.2);
-}
+}*/
 
 .blogName {
     opacity: 0;

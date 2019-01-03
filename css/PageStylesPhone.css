@@ -1,0 +1,67 @@
+---
+---
+
+@media only screen and (max-width: 600px) {
+/*Hero imagesg*/
+.HeroImage {
+	background-size: auto 100%;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+#projectsBackground {
+	background-size: auto 80%;
+	background-position: center 210%;
+}
+
+#presentationsBackground {
+	background-size: auto 30%;
+	background-position: center 40%;
+}
+
+#presentationsForeground, #projectsForeground {
+	display: none;
+}
+
+#bloggingBackground {
+	background-size: auto 100%;
+}
+
+
+
+
+
+/* Content CSS */
+.content {
+	width: 95%;
+	padding: 0px 0px 35px;
+}
+
+.showcaseThumbnail {
+	height: 40vh;
+}
+
+.showcaseThumbnail img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.blogShowcaseContainer {
+	width: 90%;
+}
+
+.blogThumbnail {
+    flex: 100%; /*not sure if this is necessary*/
+   	width: 100%; /*i'm pretty sure i need one*/
+}
+
+.blogName {
+    opacity: 0.4;
+}
+
+.tags {
+	display: none;
+}
+
+}

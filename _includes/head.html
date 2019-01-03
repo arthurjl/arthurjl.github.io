@@ -13,11 +13,16 @@
     <link href="{{site.baseurl}}/css/blogstyles.css" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/archiveStyles.css" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/highlight.css" rel="stylesheet" type="text/css">
+    <!-- css for phone -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="{{site.baseurl}}/css/PageStylesPhone.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}/css/headerPhone.css" rel="stylesheet" type="text/css">
 
     <!-- scripts -->
-    {% if page.title == "Post Archives" %}{% endif %}
+    {% if page.title == "Post Archives" %}
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="{{site.baseurl}}/scripts/smoothScroll.js"></script>
+    {% endif %}
 
     <!-- Google Verification -->
     <meta name="google-site-verification" content="z8OJ4OGAF5IYRZZSyTqySZqkrsNbO_UBG-YCvXrcsUY" />
