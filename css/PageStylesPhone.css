@@ -9,6 +9,10 @@
 	background-attachment: scroll;
 }
 
+#presentationsTitle {
+	letter-spacing: 0px;
+}
+
 #projectsBackground {
 	background-size: auto 80%;
 	background-position: center 210%;
@@ -27,11 +31,28 @@
 	background-size: auto 100%;
 }
 
+#aboutMeBox {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#aboutMeTitle {
+	font-size: 50px;
+}
+
+#aboutMeText {
+	font-size: 23px;
+}
+
 
 
 
 
 /* Content CSS */
+.contentContainer {
+	padding: 35px 0px;
+}
+
 .content {
 	width: 95%;
 	padding: 0px 0px 35px;
