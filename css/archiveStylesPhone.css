@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+.floatingPencil {
+	display: none;
+}
+
+.archiveContainer {
+	width: 100%;
+}
+
+.singleTag li time::after {
+	content: "";
+	display: block;
+}
+}
+}
