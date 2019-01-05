@@ -9,10 +9,10 @@
     <nav> <!-- add titles!!! title="mouseover text" -->
         <ul id="navLinks">
             <li>
-                <a class="rightLink {% if page.url == '{{site.baseurl}}/' %}active{% endif %}" id="home" href="{{site.baseurl}}/">home</a>
+                <a class="rightLink {% if page.activeLink == 'home' %}active{% endif %}" id="home" href="{{site.baseurl}}/">home</a>
             </li>
             <li>
-                <a class="rightLink {% if page.url == '{{site.baseurl}}/about' %}active{% endif %}" href="{{site.baseurl}}/about">about</a>
+                <a class="rightLink {% if page.activeLink == 'about' %}active{% endif %}" href="{{site.baseurl}}/about">about</a>
             </li>
             <li>
                 <a class="rightLink {% if page.activeLink == 'projects' %}active{% endif %}" href="{{site.baseurl}}/projects">projects</a>
