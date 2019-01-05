@@ -108,8 +108,6 @@
 }
 
 /* single post styles */
-
-
 #postTags {
 	font-size: 15px;
 	margin: 5px;
@@ -167,6 +165,3 @@ time {
 .blogContent div {
 	align-self: center;
 }
-
-
-

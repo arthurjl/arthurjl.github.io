@@ -1,0 +1,53 @@
+---
+---
+.aboutContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 0px;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+.aboutContent {
+	width: 100vh;
+	max-width: 65vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutContent p, .aboutContent q {
+	font-size: 19px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	padding: 10px 0px;
+	line-height: 1.5em;
+}
+
+.aboutContent q {
+	align-self: center;
+	font-weight: bold;
+	color: darkslategrey;
+}
+
+.aboutMeImage {
+	background-color: grey;
+	width: 30vw;
+	height: 30vw;
+	border-radius: 50%;
+	background-image: url("{{site.baseurl}}/images/MeStandingFixed.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.aboutMeImage img {
+		width: 100%;
+		max-height: 30vh;
+	}
+
+	.aboutContent {
+		max-width: 95%;
+	}
+}
