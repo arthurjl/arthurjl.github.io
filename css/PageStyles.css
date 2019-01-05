@@ -138,10 +138,9 @@
 
 .content {
 	width: 120vh;
-	max-width: 100%;
-	max-width: 100%;
+	max-width: 95%;
 	text-align: center;
-	padding: 40px;
+	padding: 40px 0px;
 }
 
 .showcaseThumbnail {
