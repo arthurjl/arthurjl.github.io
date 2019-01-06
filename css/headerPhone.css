@@ -14,9 +14,9 @@ header nav ul {
     justify-content: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.7);
-    height: 120%;
+    height: 100%;
     width: 0%;
-    top: -10%;
+    top: 0;
     left: 0;
     overflow: hidden;
     transition: 0.3s;
