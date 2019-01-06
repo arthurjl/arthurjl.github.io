@@ -40,7 +40,7 @@ activeLink: home
         </div>
     </div>
     {% endfor %}
-	<a href="{{site.baseurl}}/projects" class="readMoreButton">Read More!</a>
+	<a href="{{site.baseurl}}/projects" class="readMoreButton">More Posts!</a>
 </section>
 
 
@@ -64,7 +64,7 @@ activeLink: home
         </div>
     </div>
     {% endfor %}
-	<a href="{{site.baseurl}}/presentations" class="readMoreButton">Read More!</a>
+	<a href="{{site.baseurl}}/presentations" class="readMoreButton">More Posts!</a>
 </section>
 
 
@@ -75,7 +75,7 @@ activeLink: home
 </section>
 
 <section class="contentContainer">
-	<h2 id="blogContentText">I blog infrequently</h2>
+	<h2 id="blogContentText">A glimpse at the blog:</h2>
 	<div class="blogShowcaseContainer">
         {% for post in site.categories.blog limit: 5 %}
             <div class="blogThumbnail">
@@ -86,5 +86,5 @@ activeLink: home
             </div>    
         {% endfor %}
 	</div>
-	<a href="{{site.baseurl}}/blog" class="readMoreButton">Read More!</a>
+	<a href="{{site.baseurl}}/blog" class="readMoreButton">More Posts!</a>
 </section>
