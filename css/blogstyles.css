@@ -145,8 +145,8 @@ time {
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: lowercase;
-	margin-top: 40px;
 	align-self: center;
+	text-align: center;
 }
 
 .blogContent p {
@@ -156,8 +156,9 @@ time {
 }
 
 .blogContent img {
-	height: 50vh;
+	height: auto;
 	width: 90vw;
+	max-width: 1200px;
 	object-fit: contain;
 	margin: 15px 0px;
 }
