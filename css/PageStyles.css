@@ -234,7 +234,7 @@ a {
 
 .blogName {
     opacity: 0;
-    transition: .3s ease;
+    transition: .5s ease;
     background-color: black;
     color: white;
     position: absolute;

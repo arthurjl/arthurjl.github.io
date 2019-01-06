@@ -1,16 +1,17 @@
+// TODO: Clean up this code
 var animateHTML = function() {
-  var elems;
-  var windowHeight;
-  function init() {
-    elems = document.querySelectorAll('.hidden');
-    windowHeight = window.innerHeight;
-    addEventHandlers();
-    checkPosition();
-  }
-  function addEventHandlers() {
-    window.addEventListener('scroll', checkPosition);
-    window.addEventListener('resize', init);
-  }
+var elems;
+var windowHeight;
+function init() {
+  elems = document.querySelectorAll('.notHidden');
+  windowHeight = window.innerHeight;
+  addEventHandlers();
+  checkPosition();
+}
+function addEventHandlers() {
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+}
   function checkPosition() {
     for (var i = 0; i < elems.length; i++) {
       var positionFromTop = elems[i].getBoundingClientRect().top;

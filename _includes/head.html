@@ -31,11 +31,9 @@
     <script src="{{site.baseurl}}/scripts/smoothScroll.js"></script>
     {% endif %}
     <script src="{{site.baseurl}}/scripts/headerOpenMenu.js"></script>
-
-    <!-- clean up this script -->
-    <!-- fade in script for mobile phone -->
-    <!-- added .hidden class to pageStylesPhone too accomodate -->
-    <script src="{{site.baseurl}}/scripts/fadeInBlog.js"></script>
+    <!-- Note to self: javascript are loaded synchronously where they are placed so they are not aware
+    of existence of anything that follows!! These scripts can be placed in header since they are called by
+    elements as opposed to itself searching for elements and calling them -->
 
     <!-- Google Verification -->
     <meta name="google-site-verification" content="z8OJ4OGAF5IYRZZSyTqySZqkrsNbO_UBG-YCvXrcsUY" />
