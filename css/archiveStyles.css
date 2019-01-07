@@ -57,7 +57,7 @@ h3:target ~ li a {
 	color: blue;
 }
 
-#highlightColor {
+.return .highlightColor {
 	color: lightseagreen;
 }
 

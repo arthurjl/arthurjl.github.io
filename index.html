@@ -80,12 +80,11 @@ activeLink: home
         {% for post in site.categories.blog limit: 5 %}
             <div class="blogThumbnail">
                 <a href="{{site.baseurl}}{{post.url}}">
-                <img src="{{post.thumbnail}}" alt="FINISH FINISH FINISH">
-                <div class="blogName notHidden">{{ post.title }}</div>
+                <img src="{{post.thumbnail}}" alt="{{post.title}}">
+                <div class="blogName">{{ post.title }}</div>
                 </a>
             </div>    
         {% endfor %}
 	</div>
 	<a href="{{site.baseurl}}/blog" class="readMoreButton">More Posts!</a>
 </section>
-<script src="{{site.baseurl}}/scripts/fadeInBlog.js"></script>

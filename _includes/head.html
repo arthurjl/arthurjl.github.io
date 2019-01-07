@@ -26,11 +26,13 @@
     <link href="{{site.baseurl}}/css/blogStylesPhone.css" rel="stylesheet" type="text/css">
 
     <!-- scripts -->
-    {% if page.title == "Post Archives" %}
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    {% if page.title == "Post Archives" %}
     <script src="{{site.baseurl}}/scripts/smoothScroll.js"></script>
     {% endif %}
     <script src="{{site.baseurl}}/scripts/headerOpenMenu.js"></script>
+    <script src="{{site.baseurl}}/scripts/fadeInBlogThumbnails.js"></script>
+
     <!-- Note to self: javascript are loaded synchronously where they are placed so they are not aware
     of existence of anything that follows!! These scripts can be placed in header since they are called by
     elements as opposed to itself searching for elements and calling them -->
