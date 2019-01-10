@@ -12,8 +12,9 @@
     <link href="{{site.baseurl}}/css/header.css" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/blogstyles.css" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/archiveStyles.css" rel="stylesheet" type="text/css">
+    {% if page.title == "About" %}
     <link href="{{site.baseurl}}/css/about.css" rel="stylesheet" type="text/css">
-
+    {% endif %}
     <!-- TODO: Determine if I want to use this or not -->
     <link href="{{site.baseurl}}/css/highlight.css" rel="stylesheet" type="text/css">
     
@@ -31,7 +32,9 @@
     <script src="{{site.baseurl}}/scripts/smoothScroll.js"></script>
     {% endif %}
     <script src="{{site.baseurl}}/scripts/headerOpenMenu.js"></script>
+    {% if page.activeLink == "home" %}
     <script src="{{site.baseurl}}/scripts/fadeInBlogThumbnails.js"></script>
+    {% endif %}
 
     <!-- Note to self: javascript are loaded synchronously where they are placed so they are not aware
     of existence of anything that follows!! These scripts can be placed in header since they are called by
