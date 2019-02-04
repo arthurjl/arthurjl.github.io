@@ -159,6 +159,7 @@ time {
 	height: auto;
 	width: 90vw;
 	max-width: 1200px;
+    max-height: 90vh;
 	object-fit: contain;
 	margin: 15px 0px;
 }
