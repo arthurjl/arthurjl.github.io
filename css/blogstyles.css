@@ -167,3 +167,13 @@ time {
 .blogContent div {
 	align-self: center;
 }
+
+p a {
+    color: darkslategrey;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+p a:hover {
+    color: white;
+}
