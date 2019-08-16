@@ -54,15 +54,15 @@ h3:target, h3:target ~ li a {
 }
 
 h3:target ~ li a {
-	color: blue;
-}
-
-.return .highlightColor {
 	color: lightseagreen;
 }
 
+.return .highlightColor {
+	color: rgba(8,44,42, 0.8);
+}
+
 .blogTagCloud {
-	color: rgb(138,113,106);
+	color: black;
 }
 
 .presentationTagCloud {
@@ -70,7 +70,7 @@ h3:target ~ li a {
 }
 
 .projectTagCloud {
-	color: rgb(25,123,189);
+	color: black;
 }
 
 .tagCategories {
