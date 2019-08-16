@@ -57,3 +57,5 @@ defaults:
     values:
       layout: "post" # overrides previous default layout
       style: "style2"
+
+excerpt_separator: "<!--more-->"
