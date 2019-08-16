@@ -19,8 +19,8 @@ footer nav {
 footer nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 25em;
-    width: 25em;
+    min-width: 20em;
+    width: 20em;
     padding-top: 5px;
 }
 

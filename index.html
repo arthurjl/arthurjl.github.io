@@ -2,23 +2,49 @@
 layout: defaultWithFade
 activeLink: home
 ---
-<section class="HeroImage" id="background1">
-	<h1 id="nameTitle">Arthur&nbsp;Liu</h1>
-    <div class="foreground" id="landingWall"></div>
-	<div class="foreground" id="landingForeground"></div>
+<section class="HeroImage" id="homepageLandingBackground">
+	<!-- <h1 id="nameTitle">Arthur&nbsp;Liu</h1> -->
+  <!-- Following comment is a not very aesthetic backside photo of me -->
+  <!--   <div class="foreground" id="landingWall"></div> -->
+	<!-- <div class="foreground" id="landingForeground"></div> --> 
 </section>
 
 <section class="contentContainer" id="aboutMeBox">
 	<div class="content" id="aboutMeTextCenter">
 		<h1 id="aboutMeTitle">Hello!</h1>
 		<p id="aboutMeText">
-			I'm Arthur Liu, and I'm studying computer science at the <!-- <mark class="huskyPurple"> -->University of Washington<!-- </mark> -->. I'm currently interested in the applications of machine learning and data processing. Besides coding, I've also worked extensively with PowerPoint, play the piano, and enjoy soccer.
+			I'm Arthur Liu.
+      I study computer science at the University of Washington. 
 		</p>
 	</div>
 </section>
 
+<!-- <section class="HeroImage" id="bloggingBackground">
+  <h1 id="blogTitle">blog</h1>
+</section> -->
 
-<section class="HeroImage" id="projectsBackground">
+<section class="contentContainer">
+  <h2 id="blogContentText">Some posts from the blog:</h2>
+  <div class="blogShowcaseContainer">
+        {% for post in site.categories.blog limit: 5 %}
+            <div class="blogThumbnail">
+                <a href="{{site.baseurl}}{{post.url}}">
+                <img src="{{site.baseurl}}/{{post.thumbnail}}" alt="{{post.title}}">
+                <div class="blogName">
+                  <div class="blogNameTitle">{{ post.title }} </div>
+                  <div class="blogNameDate">{{ post.date | date: "%B %-d, %Y" }}</div>
+                </div>
+                </a>
+            </div>    
+        {% endfor %}
+  </div>
+  <a href="{{site.baseurl}}/blog" class="readMoreButton">Read more</a>
+</section>
+
+
+<!-- Below are sections that I used to include but no longer need. General format is useful though -->
+
+<!-- <section class="HeroImage" id="projectsBackground">
 	<h1 id="projectsTitle">projects</h1>
 	<div class="foreground" id="projectsForeground"></div>
 </section>
@@ -41,10 +67,10 @@ activeLink: home
     </div>
     {% endfor %}
 	<a href="{{site.baseurl}}/projects" class="readMoreButton">More Posts!</a>
-</section>
+</section> -->
 
 
-<section class="HeroImage" id="presentationsBackground">
+<!-- <section class="HeroImage" id="presentationsBackground">
 	<h1 id="presentationsTitle">presentations</h1>
 	<div class="foreground" id="presentationsForeground"></div>
 </section>
@@ -65,26 +91,9 @@ activeLink: home
     </div>
     {% endfor %}
 	<a href="{{site.baseurl}}/presentations" class="readMoreButton">More Posts!</a>
-</section>
+</section> -->
 
 
 
 
-<section class="HeroImage" id="bloggingBackground">
-	<h1 id="blogTitle">blogs</h1>
-</section>
 
-<section class="contentContainer">
-	<h2 id="blogContentText">A glimpse at the blog:</h2>
-	<div class="blogShowcaseContainer">
-        {% for post in site.categories.blog limit: 5 %}
-            <div class="blogThumbnail">
-                <a href="{{site.baseurl}}{{post.url}}">
-                <img src="{{site.baseurl}}/{{post.thumbnail}}" alt="{{post.title}}">
-                <div class="blogName">{{ post.title }}</div>
-                </a>
-            </div>    
-        {% endfor %}
-	</div>
-	<a href="{{site.baseurl}}/blog" class="readMoreButton">More Posts!</a>
-</section>
