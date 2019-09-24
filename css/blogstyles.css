@@ -177,3 +177,7 @@ p a {
 p a:hover {
     color: white;
 }
+
+.blogContent ul li {
+  list-style: square;
+}
