@@ -4,6 +4,7 @@ date:   2018-9-21 20:40:45 -0800
 categories: [blog]
 activeLink: blog 
 thumbnail: images/postImages/2019-01-10-BrainstormingForWebsite.jpg
+published: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue et pellentesque efficitur, odio eros congue elit, et facilisis justo elit sed dolor. Vivamus nec metus tortor. Donec sed congue diam, ac
