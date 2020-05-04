@@ -5,7 +5,7 @@
 }
 
 .blogBackgroundColor {
-	background-color: tan;
+	background-color: white;
 	padding: 0px;
 }
 
@@ -77,26 +77,29 @@
 }
 
 .olderNewerLinks a {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
-	color: black;
+	color: darkslategrey;
+	font-family: Raleway, sans-serif;
+	font-weight: 100;
+	transition-duration: 0.3s;
+	letter-spacing: 1px;
 }
 
 .olderNewerLinks .older {
 	float: left;
+	transition-duration: 0.3s;
 }
+
+
 
 .olderNewerLinks .newer {
 	float: right;
+	transition-duration: 0.3s;
 }
 
 .olderNewerLinks .older:hover, .olderNewerLinks .newer:hover {
-	color: whitesmoke;
-}
-
-
-.blogFooterColor {
-	background-color: rgb(216, 219, 226);
+	color: black;
 }
 
 .tags, .tags a {
@@ -110,27 +113,30 @@
 /* single post styles */
 #postTags {
 	font-size: 15px;
-	margin: 5px;
 	align-self: flex-end;
-	padding-right: 25px;
 	color: dimgray;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 #postTags a {
 	color: dimgray;
 	text-decoration: underline;
 	text-decoration-style: dotted;
+	padding: 5px;
 }
 
 #postTags a:hover {
-	color: white;
+	color: grey;
 }
 
 time {
-	font-size: 15px;
-	margin-bottom: 15px;
+	font-size: 12px;
+
 	color: dimgray;
 	align-self: center;
+	font-family: Raleway;
 }
 
 .blogContent {
@@ -147,12 +153,16 @@ time {
 	text-transform: lowercase;
 	align-self: center;
 	text-align: center;
+	font-family: Raleway, sans-serif;
+	letter-spacing: 2px;
+	line-height: 50px;
 }
 
 .blogContent p {
 	margin: 10px 0px;
 	font-size: 20px;
 	font-family: 'Quattrocento Sans', sans-serif;
+	line-height: 30px;
 }
 
 .blogContent img {
@@ -175,9 +185,16 @@ p a {
 }
 
 p a:hover {
-    color: white;
+    color: black;
 }
 
 .blogContent ul li {
   list-style: square;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+
+.blogContent ul {
+	margin-left: 30px;
+	line-height: 30px;
 }

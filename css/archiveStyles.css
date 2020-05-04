@@ -5,13 +5,15 @@
 }
 
 .style3HeaderColor {
-	background-color: teal;
+	
 }
 
 .overallContainer {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	font-family: Raleway, sans-serif;
+	letter-spacing: 1px;
 }
 
 .archiveContainer {
@@ -78,6 +80,7 @@ h3:target ~ li a {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
+	padding-top: 8%;
 }
 
 .singleTag {

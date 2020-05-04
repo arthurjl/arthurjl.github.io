@@ -29,15 +29,14 @@ header nav {
     justify-content: center;
 /*    padding: 0px 30px;*/
     text-decoration: none;
-
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: lowercase;
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: black;
     letter-spacing: 2px;
     z-index: 2;
-    transition: .1s;
+    transition-duration: .3s;
 }
 
 .active, .rightLink {
@@ -45,9 +44,9 @@ header nav {
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
-    color: white;
+    color: black;
     letter-spacing: 2px;
-    transition: .1s;    
+    transition-duration: .3s;    
 }
 
 .active, .rightLink:hover, .webTitle:hover {
@@ -57,4 +56,5 @@ header nav {
 #hamburgerMenu, #home {
     display: none;
 }
+
 

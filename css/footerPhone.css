@@ -2,4 +2,9 @@
 footer nav ul {   
 	display: none;
     }
+
+.copyright {
+		font-size: 11px;
+}
+
 }
