@@ -57,7 +57,7 @@
 }
 
 #aboutMeTitle {
-	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 70px;
 	/*color: rgb(203, 255, 250);*/
 	color: black;
@@ -133,12 +133,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 50px;
+	padding-bottom: 8% !important;
+	padding-top: 5% !important;
 	flex-direction: column;
 }
 
 .content {
-	width: 120vh;
+	width: 50%;
 	max-width: 95%;
 	text-align: center;
 	padding: 40px 0px;
@@ -147,9 +148,8 @@
 .showcaseThumbnail {
 	width: 120vh;
 	max-width: 100%;
-	height: 70vh;
+	height: auto;
 	object-fit: cover;
-	background-color: grey;
 	/*overflow: hidden;*/
 }
 
@@ -178,6 +178,7 @@ a {
 	color: black;
 	font-size: 20px;
 	font-family: 'Quattrocento Sans', sans-serif;
+	line-height: 30px;
 }
 
 .readMoreButton {
@@ -202,9 +203,10 @@ a {
 #blogContentText {
 	color: black;
   font-weight: bold;
-	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
 	margin-bottom: 35px;
+	letter-spacing: 1px;
 }
 
 .blogShowcaseContainer {
@@ -259,10 +261,14 @@ a {
 }
 
 .blogName .blogNameTitle {
-  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .blogName .blogNameDate {
   color: grey;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+

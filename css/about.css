@@ -1,15 +1,23 @@
 ---
 ---
 
+
 .aboutContainer {
 	width: 100%;
 	min-height: 62vh;
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	flex-direction: column;
 	padding: 30px 0px;
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 8%;
+	padding-top: 8%;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .aboutContent {
@@ -17,6 +25,7 @@
 	max-width: 65vw;
 	display: flex;
 	flex-direction: column; 
+	padding-top: 5%;
 }
 
 .aboutContent p, .aboutContent q {
@@ -24,6 +33,10 @@
 	font-family: 'Quattrocento Sans', sans-serif;
 	padding: 10px 0px;
 	line-height: 1.5em;
+}
+
+.centered {
+	text-align: center;
 }
 
 .aboutContent q {
@@ -34,16 +47,18 @@
 
 .aboutMeImage {
 	background-color: grey;
-	width: 30vw;
-	height: 30vw;
-	max-width: 300px;
-	max-height: 300px;
+	width: 50vw;
+	height: 50vw;
+	max-width: 500px;
+	max-height: 500px;
 	border-radius: 50%;
 	background-image: url("{{site.baseurl}}/images/MeStandingWithBackgroundv4.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
 }
+
+
 
 @media only screen and (max-width: 600px) {
 	.aboutContent {

@@ -19,10 +19,10 @@ activeLink: blog
 
     <div class="olderNewerLinks">
         {% if page.previous.url %}
-        <a href="{{ site.baseurl }}{{page.previous.url}}" class="older">< {{page.previous.title}}</a>
+        <a href="{{ site.baseurl }}{{page.previous.url}}" class="older">&#8592; {{page.previous.title}}</a>
         {% endif %}
         {% if page.next.url %}
-        <a href="{{ site.baseurl }}{{page.next.url}}" class="newer">{{page.next.title}} ></a>
+        <a href="{{ site.baseurl }}{{page.next.url}}" class="newer">{{page.next.title}} &#8594;</a>
         {% endif %}
     </div>
 </section>
