@@ -10,6 +10,8 @@ activeLink: blog
         {% for post in site.posts %}
           {% if post.url == page.url %}
           <div><img src="{{site.baseurl}}/{{post.thumbnail}}"></div>
+          {% endif %}
+        {% endfor %}
         {{ content }}
     </div>
 
