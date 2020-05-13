@@ -3,7 +3,7 @@ title:  "project placeholder"
 date:   2018-12-21 20:40:45 -0800
 tags: [html, css, javascript, black magic]
 categories: [project]
-activeLink: projects 
+activeLink: project
 thumbnail: https://picsum.photos/800/400/?random
 published: false
 ---
