@@ -7,6 +7,5 @@ thumbnail: images/postImages/2019-03-30-SnowyUW.jpg
 published: false
 ---
 
-<div><img src="{{site.baseurl}}/images/postImages/2019-03-30-SnowyUW.jpg"></div>
 
 Winter Quarter was something.
