@@ -158,18 +158,28 @@ time {
 	line-height: 50px;
 }
 
-.blogContent p {
+.blogContent p, .blogContent h2, .blogContent h3, .blogContent h4 {
 	margin: 10px 0px;
 	font-size: 20px;
 	font-family: 'Quattrocento Sans', sans-serif;
-	line-height: 30px;
+	line-height: 1.5em;
+}
+
+.blogContent h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.blogContent h3 {
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .blogContent img {
 	height: auto;
 	width: 90vw;
 	max-width: 1200px;
-    max-height: 90vh;
+	max-height: 90vh;
 	object-fit: contain;
 	margin: 15px 0px;
 }

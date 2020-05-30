@@ -10,3 +10,5 @@ For me, class registration always invokes an odd sense of dread.
 Questions?
 
 What I want to do?
+
+(Blogging for instance, friend says that you invest time into things)
