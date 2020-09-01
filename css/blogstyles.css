@@ -184,6 +184,11 @@ time {
 	margin: 15px 0px;
 }
 
+.blogContent p img {
+	max-height: 50vh;
+	max-width: 100%;
+}
+
 .blogContent div {
 	align-self: center;
 }
