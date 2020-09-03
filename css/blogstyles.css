@@ -193,13 +193,13 @@ time {
 	align-self: center;
 }
 
-p a {
+p a, h1 a, h2 a, h3 a, h4 a, h5 a {
     color: darkslategrey;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
 
-p a:hover {
+p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover  {
     color: black;
 }
 
@@ -213,3 +213,14 @@ p a:hover {
 	margin-left: 30px;
 	line-height: 30px;
 }
+
+/* Begin Used for captions */
+img + em {
+	position: relative;
+	top: -20px;
+	font-size: 0.8em;
+	line-height: 0.8em;
+	color: grey;
+	padding: 0 10em;
+}
+/* End Used for captions */
