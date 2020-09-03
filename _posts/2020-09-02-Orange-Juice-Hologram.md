@@ -36,7 +36,7 @@ I like the smiles though.
 
 During this most recent hackathon though, Hack'20, we wanted to optimize instead for success. After all, covid meant that the event was virtual so there wasn't all the free swag and food that could distract us. Initially, we were planning to create a puzzle solver, but it turns out the technology already exists and it's a solved problem. (It's called [Zolver](https://github.com/Kawaboongawa/Zolver) and it's actually pretty cool. A little slow, but optimizing existing solutions isn't particularly innovative.)
 
-So during another brain storm session, I remembered these [weird DIY videos](https://www.youtube.com/watch?v=7YWTtCsvgvg&t) I had seen before but disregarded as clickbait. We figured we'd give it a shot, creating a pepper's cone out of a **recycled plastic orange juice bottle**, and it actually worked pretty well.
+So during another brain storm session, I remembered these [weird DIY holograms I had seen in a YouTube thumbnail](https://www.youtube.com/watch?v=7YWTtCsvgvg&t) but that I had disregarded as clickbait. We figured we'd give it a shot, creating this thing called a [pepper's cone](https://roxanneluo.github.io/PeppersCone.html) out of a **recycled plastic orange juice bottle**, and it actually worked pretty well.
 
 ![our working version of the pepper's cone](/images/postImages/2020-09-02-FirstHologram.PNG)
 *what our quick little build actually looked like*
@@ -49,7 +49,7 @@ Yes, the demo video in the devpost link is pretty scuffed... sorry! We did it in
 
 ## Cool, we won!... so what did we win?
 
-We got to donate $300 to a charity of our choice, and additionally, we got to meet with [Ben Gilbert](https://www.linkedin.com/in/benjamingilbert/), the co-founder of Pioneer Square Labs.
+We got to donate $300 to a charity of our choice, and additionally, we got to meet with Ben Gilbert, the co-founder of Pioneer Square Labs.
 
 ![Talking with Ben](/images/postImages/2020-09-02-AbsorbingKnowledge.PNG)
 *absorbing some knowledge*
