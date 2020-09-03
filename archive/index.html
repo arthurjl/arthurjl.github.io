@@ -9,9 +9,9 @@ activeLink: archive
   <div class="archiveContainer">
     <div class="floatingPencil"></div>
     <div class="tagCategories">
-        <ul class="tagCloud">
+        <!-- <ul class="tagCloud">
             <li><a class="blogTagCloud" href="#blog" onclick="scrollToAnchor('blog')">all posts [{{site.categories.blog.size}}]</a></li>
-            <!-- <li><a class="presentationTagCloud" href="#presentation" onclick="scrollToAnchor('presentation')">presentations [{{site.categories.presentations.size}}]</a></li> -->
+            <li><a class="presentationTagCloud" href="#presentation" onclick="scrollToAnchor('presentation')">presentations [{{site.categories.presentations.size}}]</a></li>
             <li><a class="projectTagCloud" href="#project" onclick="scrollToAnchor('project')">projects [{{site.categories.project.size}}]</a></li>
           {% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
           {% assign sortedTags=site_tags | split:',' | sort %}
@@ -19,7 +19,7 @@ activeLink: archive
           {% for tag in sortedTags %}
             <li><a class="projectTagCloud" href="#{{tag | cgi_escape}}" onclick="scrollToAnchor('{{tag | cgi_escape}}')">{{tag}} [{{site.tags[tag].size}}]</a></li>
           {% endfor %}
-        </ul>
+        </ul> -->
 
        {% for category in site.categories %}
         <ul class="singleTag">
@@ -34,8 +34,8 @@ activeLink: archive
          <li class="return"><a class="highlightColor" href="#top" title="return to top" onclick="scrollToTop()">return to top</a></li>
         </ul>
         {% endfor %}
-    
-        {% for tag in sortedTags %}
+
+        <!-- {% for tag in sortedTags %}
         <ul class="singleTag">
           <h3 id="{{tag | cgi_escape}}">{{tag}}</h3>
           {% for post in site.tags[tag] %}
@@ -47,7 +47,7 @@ activeLink: archive
           {% endfor %}
          <li class="return"><a class="highlightColor" href="#top" title="return to top" onclick="scrollToTop()">return to top</a></li>
         </ul>
-        {% endfor %}
+        {% endfor %} -->
     </div>
   </div>
 
