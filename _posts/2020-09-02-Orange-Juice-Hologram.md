@@ -1,6 +1,4 @@
 ---
-categories: [blog]
-activeLink: blog
 thumbnail: images/postImages/2020-09-02-OrangeJuiceHologram.PNG
 ---
 
