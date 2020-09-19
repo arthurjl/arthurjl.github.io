@@ -16,8 +16,7 @@
 title: Arthur Liu's Website
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Arthur J. Liu. Arthur Liu's personal website. I built this website to learn web development, and I use it 
-  to share various projects and presentations, as well as post updates to my casual blog. Pay a visit!
+  Arthur J. Liu. Arthur Liu's personal website. I'm a computer science at the University of Washington, and I built this website to learn some web development. It also acts as a casual blog... thanks for visiting!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arthurjl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -33,7 +32,7 @@ plugins:
   - jekyll-paginate
 timezone: America/Los_Angeles
 
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title
 
 paginate: 5
 paginate_path: "/blog/page:num/"

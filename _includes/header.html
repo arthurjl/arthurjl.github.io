@@ -15,7 +15,7 @@
                 <a class="rightLink {% if page.activeLink == 'about' %}active{% endif %}" href="{{site.baseurl}}/about">about</a>
             </li>
             <li>
-                <a class="rightLink {% if page.activeLink == 'blog' %}active{% endif %}" href="{{site.baseurl}}/blog">blog</a>
+                <a class="rightLink {% if layout.activeLink == 'blog' or page.activeLink == 'blog' %}active{% endif %}" href="{{site.baseurl}}/blog">blog</a>
             </li>
             <!-- <li>
                 <a class="rightLink {% if page.activeLink == 'project' %}active{% endif %}" href="{{site.baseurl}}/projects">projects</a>
