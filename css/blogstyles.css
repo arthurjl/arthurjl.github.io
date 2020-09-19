@@ -217,10 +217,12 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover  {
 /* Begin Used for captions */
 img + em {
 	position: relative;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
 	top: -20px;
 	font-size: 0.8em;
 	line-height: 0.8em;
 	color: grey;
-	padding: 0 10em;
 }
 /* End Used for captions */
