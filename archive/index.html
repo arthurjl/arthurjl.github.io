@@ -21,7 +21,7 @@ activeLink: archive
           {% endfor %}
         </ul> -->
 
-       {% for category in site.categories %}
+       <!-- {% for category in site.categories %}
         <ul class="singleTag">
           <h3 id="{{category[0]}}">{{category[0]}}</h3>
           {% for post in category[1] %}
@@ -33,7 +33,22 @@ activeLink: archive
           {% endfor %}
          <li class="return"><a class="highlightColor" href="#top" title="return to top" onclick="scrollToTop()">return to top</a></li>
         </ul>
-        {% endfor %}
+        {% endfor %} -->
+
+        <ul class="singleTag">
+          {% for post in site.posts %}
+          <li>
+            <time itemprop="dateCreated" datetime="{{post.date}}">
+              {{ post.date | date: "%b %d, %Y" }}
+            </time>
+            <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+              {{post.title}}
+            </a>
+          </li>
+          <br>
+          {% endfor %}
+         <li class="return"><a class="highlightColor" href="#top" title="return to top" onclick="scrollToTop()">return to top</a></li>
+        </ul>
 
         <!-- {% for tag in sortedTags %}
         <ul class="singleTag">
