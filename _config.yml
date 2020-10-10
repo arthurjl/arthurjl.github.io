@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Arthur Liu's Website
+title: Arthur Liu
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Arthur J. Liu. Arthur Liu's personal website. I'm a computer science at the University of Washington, and I built this website to learn some web development. It also acts as a casual blog... thanks for visiting!
+  Arthur J. Liu. Welcome to my website! I'm a computer science student at the University of Washington, and this is my tiny corner of the internet... thanks for visiting!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arthurjl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
