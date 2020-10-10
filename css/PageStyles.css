@@ -12,7 +12,8 @@
 }
 
 #homepageLandingBackground {
-	background-image: url("{{site.baseurl}}/images/Seattle_Kerry_Park_Skyline_ReducedQuality.jpg");
+	background-image: url("{{site.baseurl}}/images/SunsetBeach.JPG");
+	background-position: center;
 }
 
 
