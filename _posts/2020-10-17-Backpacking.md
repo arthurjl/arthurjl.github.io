@@ -62,7 +62,7 @@ To walk along the coast, there were some parts that aren't trespassable during h
 ![](/images/postImages/2020-10-17/drive.JPG)
 *s/o to my uber drivers :,)*
 
-We also had to bring water filters to protozoa or something. None of us got sick so I guess they worked? The water looked a little funny still to be honest.
+The water filters were important to take care of protozoa or something. None of us got sick so I guess they worked? They tasted just fine. The water looked a little funny though to be honest.
 ![](/images/postImages/2020-10-17/filter.JPG)
 ![](/images/postImages/2020-10-17/filteredwater.JPG)
 *Bet you can't guess which one was the original water we brought*
