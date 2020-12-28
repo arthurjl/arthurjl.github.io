@@ -93,7 +93,7 @@ For some other highlights this quarter, I went back to TA'ing again! I ended up 
 ![image](/images/postImages/2020-12-27/27.JPG)
 *Shake Shack with TA's and (unpictured: unused basketball b/c we're nerds :,))*
 
-I snagged a friend to go on walks and other COVID sanctioned activities.
+Some walks and other COVID sanctioned activity highlights:
 ![image](/images/postImages/2020-12-27/19.JPG)
 *New park!*
 
