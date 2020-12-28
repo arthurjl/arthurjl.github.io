@@ -60,7 +60,7 @@ I also learned a really easy but tasty meal from my roommate Brian. Just stick c
 ![image](/images/postImages/2020-12-27/12.JPG)
 *pardon my unaesthetic photos tho lol, i promise it's good*
 
-![image](/images/postImages/2020-12-27/14.JPG)
+![image](/images/postImages/2020-12-27/14.jpg)
 *See, the kale is alright, but the chicken is carrying this meal*
 
 DubHacks came around too and we assembled our team, DubHacks Resort: Daniel, Jake, Andrew, Me and rip Esther who was too busy for our shenanigans. We created a room for conferences and zoom calls where students can react anonymously to give live feedback to the speaker! It also utilizes emotion recognition models to gauge the users as well. You can check it out here: [Room Temperature.](https://devpost.com/software/room-temperature/updates/236779)
@@ -77,7 +77,7 @@ On a slightly related note, our previous hackathon project: [Orange Juice Hologr
 
 We got a long weekend, so I went hiking with some of my high school friends! We almost got lost though, but thankfully we had GPS and we found the correct trail after heading in the general direction and finally crawling underneath a giant log. I've never been more glad to see some muddy, beaten path.
 
-![image](/images/postImages/2020-12-27/16.JPG)
+![image](/images/postImages/2020-12-27/16.jpg)
 *Okay Cambridge*
 
 ![image](/images/postImages/2020-12-27/17.JPG)
@@ -97,19 +97,19 @@ I snagged Taylor to go on walks and other COVID sanctioned activities.
 ![image](/images/postImages/2020-12-27/19.JPG)
 *New park!*
 
-![image](/images/postImages/2020-12-27/20.JPG)
+![image](/images/postImages/2020-12-27/20.jpg)
 *Scooters and late night downtown Seattle and a ticket*
 
 ![image](/images/postImages/2020-12-27/21.JPG)
 *I voted*
 
-![image](/images/postImages/2020-12-27/22.JPG)
+![image](/images/postImages/2020-12-27/22.jpg)
 *Got a new coat*
 
-![image](/images/postImages/2020-12-27/23.JPG)
+![image](/images/postImages/2020-12-27/23.jpg)
 *Yeah, I know what I'm doing, I took photography 131*
 
-![image](/images/postImages/2020-12-27/24.JPG)
+![image](/images/postImages/2020-12-27/24.jpg)
 *A walk*
 
 ![image](/images/postImages/2020-12-27/25.JPG)
@@ -177,28 +177,28 @@ This is another research project where I created a labeling site for an radiolog
 
 
 ## Celebration
-![image](/images/postImages/2020-12-27/28.JPG)
+![image](/images/postImages/2020-12-27/28.jpg)
 *Spotted a seal at Golden Gardens! Or is that a log?...*
 
-![image](/images/postImages/2020-12-27/29.JPG)
+![image](/images/postImages/2020-12-27/29.jpg)
 *Surprising Sea-Eun who graduated!*
 
-![image](/images/postImages/2020-12-27/30.JPG)
+![image](/images/postImages/2020-12-27/30.jpg)
 *This person tricked me into wanting to TA. thx :,)*
 
-![image](/images/postImages/2020-12-27/44.JPG)
+![image](/images/postImages/2020-12-27/44.jpg)
 *Pretty 'gorge'-ous (and windy) (Quincy, WA)*
 
-![image](/images/postImages/2020-12-27/43.JPG)
+![image](/images/postImages/2020-12-27/43.jpg)
 *For the gram (ps. crumbly cheese is a win)*
 
-![image](/images/postImages/2020-12-27/42.JPG)
+![image](/images/postImages/2020-12-27/42.jpg)
 *You can tell he's a chef by the way that he is*
 
-![image](/images/postImages/2020-12-27/45.JPG)
+![image](/images/postImages/2020-12-27/45.jpg)
 *Painting with colored pencils :))*
 
-![image](/images/postImages/2020-12-27/41.JPG)
+![image](/images/postImages/2020-12-27/41.jpg)
 *Stopped by leavenworth on the way back.*
 
 ## Fin
