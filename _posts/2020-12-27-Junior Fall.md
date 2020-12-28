@@ -31,10 +31,10 @@ This trip gets included in the quarter recap because on the way there, we had to
 ![image](/images/postImages/2020-12-27/04-oregon.JPG)
 *Big shoutout to TacoTime for passable Wifi*
 
-Decided to do some shopping before school started to get some fresh fits.
+Decided to go do some shopping with Daniel before school started to get some fresh fits.
 
 ![image](/images/postImages/2020-12-27/07.JPG)
-*looking sharp, also covid = no dressing rooms*
+*looking sharp there, also covid = no dressing rooms*
 
 Goodbye Nila, I'm off to school!
 
@@ -93,7 +93,7 @@ For some other highlights this quarter, I went back to TA'ing again! I ended up 
 ![image](/images/postImages/2020-12-27/27.JPG)
 *Shake Shack with TA's and (unpictured: unused basketball b/c we're nerds :,))*
 
-I snagged a friend to go on walks and other COVID sanctioned activities.
+Some walks and other COVID sanctioned activity highlights:
 ![image](/images/postImages/2020-12-27/19.JPG)
 *New park!*
 
