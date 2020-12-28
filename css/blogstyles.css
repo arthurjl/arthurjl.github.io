@@ -222,7 +222,7 @@ img + em {
 	flex-direction: column;
 	top: -20px;
 	font-size: 0.8em;
-	line-height: 0.8em;
+	line-height: 0.85em;
 	color: grey;
 }
 /* End Used for captions */
@@ -245,3 +245,14 @@ iframe {
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 /* End Embed styling */
+
+/* Begin video player styling */
+.video-player-container {
+	width: 100%;
+}
+
+.video-player-container video {
+	width: 100%;
+}
+
+/* End video player styling */
