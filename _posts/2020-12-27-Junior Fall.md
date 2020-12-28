@@ -28,7 +28,7 @@ Not pictured here, the RV lot that we unwittingly joined, the scrumptious hambur
 
 This trip gets included in the quarter recap because on the way there, we had to attend a meeting. (Also, I just wanted to include some more smiley images, so sue me).
 
-![image](/images/postImages/2020-12-27/04-oregon.jpg)
+![image](/images/postImages/2020-12-27/04-oregon.JPG)
 *Big shoutout to TacoTime for passable Wifi*
 
 Decided to do some shopping before school started to get some fresh fits.
@@ -115,10 +115,10 @@ I snagged Taylor to go on walks and other COVID sanctioned activities.
 ![image](/images/postImages/2020-12-27/25.JPG)
 *A run*
 
-![image](/images/postImages/2020-12-27/33.JPG)
+![image](/images/postImages/2020-12-27/33.jpg)
 *Take-out pho is not a great experience*
 
-![image](/images/postImages/2020-12-27/31.JPG)
+![image](/images/postImages/2020-12-27/31.jpg)
 *Getting my Amazon employee ID photo taken finally*
 
 I'd crash Daniel and Jake's room to cook some better meals. Here's a taste:
@@ -136,7 +136,7 @@ Very tragic.
 
 I wasn't really a fan of the online learning experience, and by finals week, this meme felt particularly relevant.
 
-![image](/images/postImages/2020-12-27/37.JPG)
+![image](/images/postImages/2020-12-27/37.jpg)
 *thanks r/udub*
 
 ## So Academics
