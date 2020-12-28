@@ -88,12 +88,12 @@ This next picture was the beginning of the trail where it forked off of the main
 ![image](/images/postImages/2020-12-27/18.JPG)
 *This is the trail, trust me ~ Asya*
 
-For some other highlights this quarter, I went back to TA'ing for CSE143! I ended up with an 8:30 AM section, and the attendance was incredible, also speaking for myself too since I managed to wake up somehow. Basically every student showed up for section which kinda blew my mind. Another highlight was head TA'ing with some really cool people.
+For some other highlights this quarter, I went back to TA'ing again! I ended up with an 8:30 AM section, and the attendance was incredible, also speaking for myself too since I managed to wake up somehow. Basically every student showed up for section which kinda blew my mind. Another highlight was head TA'ing with some really cool people.
 
 ![image](/images/postImages/2020-12-27/27.JPG)
 *Shake Shack with TA's and (unpictured: unused basketball b/c we're nerds :,))*
 
-I snagged Taylor to go on walks and other COVID sanctioned activities.
+I snagged a friend to go on walks and other COVID sanctioned activities.
 ![image](/images/postImages/2020-12-27/19.JPG)
 *New park!*
 
@@ -181,7 +181,7 @@ This is another research project where I created a labeling site for an radiolog
 *Spotted a seal at Golden Gardens! Or is that a log?...*
 
 ![image](/images/postImages/2020-12-27/29.jpg)
-*Surprising Sea-Eun who graduated!*
+*Surprising our graduated friend!*
 
 ![image](/images/postImages/2020-12-27/30.jpg)
 *This person tricked me into wanting to TA. thx :,)*
