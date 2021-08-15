@@ -53,7 +53,7 @@ body {
 	max-width: 350px;
 	max-height: 350px;
 	border-radius: 50%;
-	background-image: url("{{site.baseurl}}/images/MeStandingWithBackgroundv4.jpg");
+	background-image: url("{{site.baseurl}}/images/LaJollaMe.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
