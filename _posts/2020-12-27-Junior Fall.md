@@ -203,3 +203,7 @@ This is another research project where I created a labeling site for an radiolog
 
 ## Fin
 See you next quarter! (Which is actually alarmingly soon b/c winter breaks only 2 weeks this year. How could they do this to us D:)
+
+Unpictured:
+* loth dumpling night
+* section TA meetings
